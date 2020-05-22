@@ -25,6 +25,7 @@ class Experiences extends Component{
                                 <li>Jquery</li>
                                 <li>Bootstrap</li>
                                 <li>Semantics-UI</li>
+                                <li>React</li>
                                 <li>Api | Ajax</li>
                             </ul>
                         </div>
@@ -34,11 +35,13 @@ class Experiences extends Component{
                             <ul>
                                 <li>NodeJS</li>
                                 <li>NPM</li>
+                                <li>Web3</li>
+                                <li>Solidity</li>
                                 <li>Express</li>
-                                <li>SQL</li>
+                                <li>Geth</li>
                                 <li>Mongo</li>
-                                <li>Restful Web Services</li>
-                                <li>Flask | Python</li>
+                                
+                                
                             </ul>
                         </div>
                         <div className="small-2 large-4 columns text-center experience-topics-tool">
@@ -46,11 +49,11 @@ class Experiences extends Component{
                             <h3>Tools</h3>
                             <ul>
                                 <li>Vim</li>
-                                <li>Bower</li>
-                                <li>Atom || Webstorm</li>
-                                <li>Github && Bitbucket</li>
+                                <li>Openshift</li>
+                                <li>Visual Studio</li>
+                                <li>Github</li>
                                 <li>SSH</li>
-                                <li>Gulp</li>
+                                <li>WSCP</li>
                             </ul>
                         </div>
                     </div>
