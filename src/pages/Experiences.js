@@ -26,7 +26,7 @@ class Experiences extends Component{
                                 <li>Bootstrap</li>
                                 <li>Semantics-UI</li>
                                 <li>React</li>
-                                <li>Api | Ajax</li>
+                                <li>Api</li>
                             </ul>
                         </div>
                         <div className="small-2 large-4 columns text-center experience-topics-back">
