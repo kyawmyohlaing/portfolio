@@ -6,6 +6,7 @@ import Work from './pages/Work';
 import Teaching from './pages/Teaching';
 import Footer from './components/Footer';
 import Education from './pages/Education';
+import Professional from './pages/Professional';
 import "./css/style.css";
 import "./css/animations.css";
 
@@ -20,7 +21,8 @@ class App extends Component{
               <Experiences />
               <Work />
               <Teaching/>
-              <Education/>
+            
+              <Professional/>
               <Footer/>
             </Wrapper>
 
