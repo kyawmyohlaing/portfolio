@@ -38,9 +38,8 @@ Security Specialist</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmVN6SpiyMqRuzR83VBq18PBexzyixfEnHuGZvwQqzmZwi">Absolute Beginner Cyber Secruity Part-3</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmUQYs37MdB5tNKurwtVRpWRPL71B4R4xPd6gXHfAcbz4w">MikroTix Lab</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmSGdpq12ovsHCrcy3SiYWGWGN9T4LTTopYPscQ1net4XF">VMware Site Recovery Manager [V6.1] Fundamentals</a>
-            <a className="my-button" target="_blank" href=""></a>
-            <a className="my-button" target="_blank" href=""></a>
-
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmavbSPEJ5TiEshHcBPUpLtBZknEMgoZvmkasxS4P3REYE">VMware Certified Professional Data Center Virtualization 5</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmUH3jnH89cJzD5zy3Reo2JpcgB3iNUCoTNa7CgT6Nx7cK">VMware Certified Professional Data Center Virtualization 5</a>
 
                 
         </div>
