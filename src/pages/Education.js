@@ -29,12 +29,18 @@ Kubernetes</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmSgyhifSwVoTtBppKu4sZ5TYQWKhAn7LiHRJL4jDxHfUa">Blockchain</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmZ7MDwZtFzuAUueZ6EQZFvArhXiM3jDQmE3g8mq65ejWm">Blockchain Basics</a>
             <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmSMt24WY7MfSe6EgcmyzNKujTkYSQyhDYEZaAsDJbgRRG">Blockchain Platforms</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmThtdDH6DNkLjzshKDL95ooYQFm9RJHRkZJVA3h6jCzMr">Decentralized Applications (Dapps)</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/Qmdso5s11PdFCyo6JDswxf6WHAa94ZtNH1SqjNvMgmYuW7">ICSI | CNSS Certified Network
+Security Specialist</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmdigjWgyCEeftdMoSLwnTJ3uK5x7Gj2w966Zpq9ncTWGn">SDN-NFN-Whitebox Swtiching and OpenFlow</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmPrUhH5q7m94WtD3wCL3jojo9qT1Ka1cUUh4efbv6tndz">Absolute Beginner Cyber Secruity Part-1</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmUyErqPTLo9PGMnp8bTi46557hiCVH7xzULhJ5pFgpmgo">Absolute Beginner Cyber Secruity Part-2</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmVN6SpiyMqRuzR83VBq18PBexzyixfEnHuGZvwQqzmZwi">Absolute Beginner Cyber Secruity Part-3</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmUQYs37MdB5tNKurwtVRpWRPL71B4R4xPd6gXHfAcbz4w">MikroTix Lab</a>
+            <a className="my-button" target="_blank" href="https://ipfs.io/ipfs/QmSGdpq12ovsHCrcy3SiYWGWGN9T4LTTopYPscQ1net4XF">VMware Site Recovery Manager [V6.1] Fundamentals</a>
             <a className="my-button" target="_blank" href=""></a>
             <a className="my-button" target="_blank" href=""></a>
-            <a className="my-button" target="_blank" href=""></a>
-            <a className="my-button" target="_blank" href=""></a>
-            <a className="my-button" target="_blank" href=""></a>
-            <a className="my-button" target="_blank" href=""></a>
+
 
                 
         </div>
