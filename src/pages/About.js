@@ -18,7 +18,7 @@ class About extends Component{
                         
                         </div>
                         <div className="details">
-						<h1>Hi, I'm Kyaw Myo Hlaing.<br/></h1>
+						<h1 className="text-center" >Hi, I'm Kyaw Myo Hlaing.<br/></h1>
                         <h5>
                         <span id="writing-text">
                             <ReactRotatingText items={['A Bachelor f Engineering(Information Technology) who has got total 14 years of ICT experiences.', 'Main strengths are IT infrastructue and DApp full stack blockchain developer', 'third']} />
