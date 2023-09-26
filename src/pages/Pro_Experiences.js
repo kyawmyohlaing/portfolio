@@ -124,7 +124,70 @@ Create and manage User Accounts, Organizational Units, Group Policy Objects, Sha
           </Typography>
         </MuiExpansionPanelDetails>
       </MuiExpansionPanel>
+
+      <MuiExpansionPanel
+        square
+        expanded={expanded}
+        onChange={handleChange}
+        className={classes.panel}
+      >
+        <MuiExpansionPanelSummary
+          aria-controls="panel2d-content"
+          id="panel2d-header"
+          className={classes.panelSummary}
+        >
+          <Typography className={classes.heading}>
+          OKA Management Technology Pte Ltd (Nov 2008 – Nov 2012)
+          </Typography>
+        </MuiExpansionPanelSummary>
+        <MuiExpansionPanelDetails className={classes.details}>
+          <Typography>
+            <ul>
+              <li>Position: <b>Senior Network and System Engineer</b></li>
+              <li>Responsibilities:</li>
+              <ul>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+                
+              </ul>
+            </ul>
+          </Typography>
+        </MuiExpansionPanelDetails>
+      </MuiExpansionPanel>
       
+      <MuiExpansionPanel
+        square
+        expanded={expanded}
+        onChange={handleChange}
+        className={classes.panel}
+      >
+        <MuiExpansionPanelSummary
+          aria-controls="panel2d-content"
+          id="panel2d-header"
+          className={classes.panelSummary}
+        >
+          <Typography className={classes.heading}>
+          Columbus Travels & Tours Co.,Ltd (Mar 2007 – Sep 2008)
+          </Typography>
+        </MuiExpansionPanelSummary>
+        <MuiExpansionPanelDetails className={classes.details}>
+          <Typography>
+            <ul>
+              <li>Position: <b>Network and System Engineer</b></li>
+              <li>Responsibilities:</li>
+              <ul>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+              <li>Responsibilities</li>
+                
+              </ul>
+            </ul>
+          </Typography>
+        </MuiExpansionPanelDetails>
+      </MuiExpansionPanel>
     </div>
   );
 };
