@@ -80,9 +80,12 @@ const ProExperience = ({ classes }) => {
                   Head Office and Branch Network.
                 </li>
                 <li>
-                  Install, configure and administer ESXi, vCenter Server, NSX
-                  Manager, UCS Blade Manager, and vOperation Manager, SD-WAN
-                  orchestrator for Datacenter management environment.
+                  Install, configure and administer ESXi, vCenter Server, NSX-T
+                  Datacenter, UCS Blade Manager, and vOperation Manager for Datacenter management environment and velocloud SDWAN Edge and
+                  orchestrator
+                </li>
+                <li>
+                  Install, configure and administer Supervisor cluster, namespace, vSphere Pod, container and Tanzu K8 Cluster for open soure with vSphere Tanzu
                 </li>
                 <li>
                   Configure and administer EMC SAN storage and Data Domain for
