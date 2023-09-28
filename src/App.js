@@ -11,6 +11,7 @@ import Professional1 from './pages/Professional1';
 import "./css/style.css";
 import "./css/animations.css";
 import My_Experiences from './pages/My_Experiences';
+import ResumeDownloadLink from './pages/ResumeDownloadLink';
 
 class App extends Component{
     render(){
@@ -20,6 +21,7 @@ class App extends Component{
           
               <Wrapper>
               <About1 />
+              <ResumeDownloadLink />
               <My_Experiences />
             
               <Professional1/>
