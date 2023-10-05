@@ -671,6 +671,21 @@ const CustomizedExpansionPanels = ({ classes }) => {
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
           <Typography>
             <ul>
+            
+              <a
+                target="_blank"
+                href="https://coursera.org/verify/JTTAK2F29MWW"
+              >
+                Foundations of Project Management
+
+              </a><br/>
+              <a
+                target="_blank"
+                href="https://coursera.org/verify/VE5XPPM6JFUG"
+              >
+                Project Initiation:Starting a Successful Project
+
+              </a><br/>
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/Qmdw117mvwYB2PUXRcjXWw73r1xBGJNsd1pZHMaTqxLnh2"
