@@ -688,6 +688,13 @@ const CustomizedExpansionPanels = ({ classes }) => {
               </a><br/>
               <a
                 target="_blank"
+                href="https://www.coursera.org/verify/S88YJVSATSU9"
+              >
+                Introduction to Blockchain Technologies
+
+              </a><br/>
+              <a
+                target="_blank"
                 href="https://ipfs.io/ipfs/Qmdw117mvwYB2PUXRcjXWw73r1xBGJNsd1pZHMaTqxLnh2"
               >
                 Blockchain Service
