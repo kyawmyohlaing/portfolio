@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.918d36cb.css",
-    "main.js": "/portfolio/static/js/main.c51649a0.js",
+    "main.js": "/portfolio/static/js/main.e8aeec9d.js",
     "static/media/kyaw_myo_hlaing_resume-v1.pdf": "/portfolio/static/media/kyaw_myo_hlaing_resume-v1.e01e0e7d8ea721811fb9.pdf",
     "static/media/project1.png": "/portfolio/static/media/project1.60a5a65a52d3258a30a7.png",
     "static/media/profile.JPG": "/portfolio/static/media/profile.5417f7421a4c97d9a370.JPG",
     "index.html": "/portfolio/index.html",
     "main.918d36cb.css.map": "/portfolio/static/css/main.918d36cb.css.map",
-    "main.c51649a0.js.map": "/portfolio/static/js/main.c51649a0.js.map"
+    "main.e8aeec9d.js.map": "/portfolio/static/js/main.e8aeec9d.js.map"
   },
   "entrypoints": [
     "static/css/main.918d36cb.css",
-    "static/js/main.c51649a0.js"
+    "static/js/main.e8aeec9d.js"
   ]
 }
