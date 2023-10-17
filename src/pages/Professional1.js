@@ -688,6 +688,13 @@ const CustomizedExpansionPanels = ({ classes }) => {
               </a><br/>
               <a
                 target="_blank"
+                href="https://coursera.org/verify/L6L6DB3WPZG8"
+              >
+                Project Planning: Putting It All Together
+
+              </a><br/>
+              <a
+                target="_blank"
                 href="https://www.coursera.org/verify/S88YJVSATSU9"
               >
                 Introduction to Blockchain Technologies

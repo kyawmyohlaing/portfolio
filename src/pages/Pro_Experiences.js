@@ -58,66 +58,108 @@ const ProExperience = ({ classes }) => {
           className={classes.panelSummary}
         >
           <Typography className={classes.heading}>
-            First Private Bank Co., Ltd (May 2017 – Current)
+            <b>Infrastructure Manager</b>, First Private Bank Co., Ltd (May 2017
+            – Current)
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.details}>
           <Typography>
             <ul>
-              <li>
+              <p>
                 Position: <b>Infrastructure Manager</b>
-              </li>
-              <li>Responsibilities:</li>
+              </p>
+              <p>
+                In my role as an Infrastructure Manager at First Private Bank
+                Co., Ltd, I assumed a pivotal position responsible for
+                orchestrating the organization's IT infrastructure. My primary
+                focus was on ensuring the seamless functioning of critical
+                banking systems through strategic planning, meticulous design,
+                and proficient management of various technologies.{" "}
+              </p>
               <ul>
                 <li>
-                  Plan, design, implement and maintain Datacenter and Disaster
-                  Recovery infrastructure supporting Corebanking system, Digital
-                  Banking, FI-Gateway, Swift, MIS agent, and Credit Bureau
-                  system.
+                  Virtualization Management: Oversaw the configuration,
+                  deployment, and ongoing management of VMware vSphere and Tanzu
+                  Kubernetes clusters, ensuring optimal performance, resource
+                  allocation, and virtual machine operations.
                 </li>
                 <li>
-                  Plan, design, implement and maintain enterprise network for
-                  Head Office and Branch Network.
+                  Strategic Infrastructure Planning: Led the strategic planning
+                  efforts for the bank's IT infrastructure, including Core
+                  banking, Digital Banking, FI-Gateway, Swift, and Credit Bureau
+                  systems. Ensured alignment with the bank's objectives and
+                  future scalability.
                 </li>
                 <li>
-                  Install, configure and administer ESXi, vCenter Server, NSX-T
-                  Datacenter, UCS Blade Manager, and vOperation Manager for Datacenter management environment and velocloud SDWAN Edge and
-                  orchestrator
+                  NSX Implementation: Designed and implemented VMware NSX,
+                  creating a secure and dynamic network infrastructure.
+                  Implemented micro-segmentation for enhanced security and
+                  network isolation.
                 </li>
                 <li>
-                  Install, configure and administer Supervisor cluster, namespace, vSphere Pod, container and Tanzu K8 Cluster for open soure with vSphere Tanzu
+                  Cloud Integration: Implemented cloud solutions, including
+                  VMware Cloud Availability (DR), ensuring the organization's
+                  critical workloads were protected and could be rapidly
+                  recovered in the event of a disaster. Facilitated seamless
+                  integration of on-premises and cloud-based services.
                 </li>
                 <li>
-                  Configure and administer EMC SAN storage and Data Domain for
-                  backup and recovery.
+                  Network Architecture & Security: Designed and maintained
+                  secure network architectures. Implemented Role-Based Access
+                  Control (RBAC), encryption protocols, and real-time monitoring
+                  tools like Prometheus and Grafana to ensure a secure and
+                  high-performance network environment.
                 </li>
                 <li>
-                  Plan, deploy, configure and manage vCloud Director
-                  Availability for private cloud DR management.
+                  AWS VPC Setup: Spearheaded the design and implementation of a
+                  secure Virtual Private Cloud (VPC) architecture, leveraging
+                  multiple Availability Zones and VPC endpoints. Implemented
+                  advanced monitoring techniques to ensure fault tolerance and
+                  data integrity.
                 </li>
                 <li>
-                  Install, configure, and administer Window, Linux Operation
-                  System. Create and manage User Accounts, Organizational Units,
-                  Group Policy Objects, Sharing & Security Permission,
-                  Performance optimization for Active Directory Service.
+                  SD-WAN Deployment: Led the deployment and configuration of
+                  SD-WAN solutions, optimizing WAN traffic, enhancing network
+                  reliability, and ensuring secure communication between
+                  branches and data centers.
                 </li>
                 <li>
-                  Install and administer AD, DHCP, DNS, Cacti, Web application
-                  server, Crystal Report and printer server.
+                  Server Administration: Installed, configured, and administered
+                  Windows and Linux operating systems. Managed web application
+                  servers, ensuring they were up-to-date, secure, and optimized
+                  for performance.
                 </li>
                 <li>
-                  Install, configure, and administer Switch, Router, Firewall,
-                  AP, SD-WAN, and ACI.
+                  Switch and Router Configuration: Deployed, configured, and
+                  optimized network switches and routers, ensuring
+                  high-performance data routing, fault tolerance, and efficient
+                  traffic flow across the network.
                 </li>
                 <li>
-                  Regularly maintain security by updating device firmware,
-                  Operations system, software, and application, security
-                  software.
+                  Collaboration and Vendor Management: Collaborated with
+                  vendors, ensuring the latest updates, patches, and best
+                  practices were applied. Managed vendor relationships, resolved
+                  technical issues promptly, and ensured the organization
+                  benefited from cutting-edge solutions.
                 </li>
                 <li>
-                  Regularly check and schedule backup on a daily basis. Conduct
-                  Datacenter Failover for testing recovery process. Manage and
-                  cooperate with vendors.
+                  Performance Monitoring and Optimization: Regularly monitored
+                  the performance of the virtualized infrastructure, identifying
+                  bottlenecks and areas for improvement. Implemented
+                  optimizations to enhance overall system efficiency and
+                  responsiveness.
+                </li>
+                <li>
+                  Capacity Planning: Conducted capacity planning exercises,
+                  forecasting future resource requirements, and ensuring the
+                  infrastructure was scalable to accommodate the organization's
+                  growth and evolving IT needs.
+                </li>
+                <li>
+                  Documentation and Training: Maintained detailed documentation
+                  of configurations, procedures, and best practices. Provided
+                  training and knowledge sharing sessions to team members and
+                  stakeholders, ensuring a well-informed IT team.
                 </li>
 
                 {/* Add more responsibilities here */}
@@ -140,49 +182,75 @@ const ProExperience = ({ classes }) => {
           className={classes.panelSummary}
         >
           <Typography className={classes.heading}>
-            Frontier Technology Partners Co., Ltd (March 2014 – May 2017)
+            <b>Senior System and Network Manager</b>,Frontier Technology
+            Partners Co., Ltd (March 2014 – May 2017)
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.details}>
           <Typography>
             <ul>
-              <li>
+              <p>
                 Position: <b>Senior System Manager</b>
-              </li>
-              <li>Responsibilities:</li>
+              </p>
+              <p>
+                As a Senior System Engineer at Frontier Technology Partners Co.,
+                Ltd, I was entrusted with critical responsibilities in managing
+                complex IT infrastructures. My role involved overseeing various
+                aspects of system and network administration to ensure seamless
+                operations of the organization's IT environment.{" "}
+              </p>
               <ul>
                 <li>
-                  Plan, design, implement and maintain “myKyat” system
-                  infrastructure including Cisco networking and VMware
-                  Virtualization.
+                  System Infrastructure Management: Planned, designed,
+                  implemented, and maintained the system infrastructure,
+                  ensuring seamless operations of the "myKyat" system. Managed
+                  complex systems including Cisco networking and VMware
+                  virtualization technologies.
                 </li>
                 <li>
-                  Plan, design, implement and maintain enterprise network for
-                  Head Office and Branch Network.
+                  Virtualization Expertise: Installed, configured, and
+                  administered ESXi hosts and vCenter Server. Managed
+                  virtualized environments, ensuring optimal performance,
+                  resource allocation, and efficient virtual machine operations.
                 </li>
                 <li>
-                  Install, configure and administer ESXi, vCenter Server, UCS
-                  Manager, and vOperation Manager for Datacenter management
-                  environment.
+                  Network Design and Administration: Designed and implemented
+                  enterprise-level networks for both Head Office and Branch
+                  Network. Configured switches, routers, firewalls, and access
+                  points to establish secure and high-performance network
+                  connections.
                 </li>
                 <li>
-                  Install, configure, and administer Window, Linux Operation
-                  System. Create and manage User Accounts, Organizational Units,
-                  Group Policy Objects, Sharing & Security Permission,
-                  Performance optimization for Active Directory Service.
+                  Active Directory Management: Managed user accounts,
+                  Organizational Units, Group Policy Objects (GPOs), and shared
+                  resources within Active Directory. Implemented security
+                  permissions and optimized the Active Directory service for
+                  performance.
                 </li>
                 <li>
-                  Install and administer AD, DHCP, DNS, Cacti, Web application
-                  server, Crystal Report and printer server.
+                  Server Administration: Installed, configured, and administered
+                  Windows and Linux operating systems. Managed web application
+                  servers, ensuring they were up-to-date, secure, and optimized
+                  for performance.
                 </li>
                 <li>
-                  Install, configure, and administer Switch, Router, Firewall,
-                  AP.
+                  Monitoring and Optimization: Implemented monitoring tools like
+                  Cacti and vOperation Manager to ensure real-time monitoring of
+                  system performance. Conducted regular performance
+                  optimizations to enhance system efficiency.
                 </li>
                 <li>
-                  Regularly maintain security by updating device firmware,
-                  Operations system, software, and application, security
-                  software.
+                  Team Management: Managed and led a team of IT professionals
+                  and vendors, ensuring effective collaboration, task
+                  delegation, and successful project outcomes. Facilitated
+                  training sessions to enhance team skills and knowledge.
+                </li>
+                <li>
+                  Documentation: Maintained detailed documentation of
+                  configurations, procedures, and best practices. Documented
+                  network architectures, server configurations, and
+                  troubleshooting steps for future reference and knowledge
+                  sharing.
                 </li>
               </ul>
             </ul>
@@ -202,33 +270,68 @@ const ProExperience = ({ classes }) => {
           className={classes.panelSummary}
         >
           <Typography className={classes.heading}>
-            OKA Management Technology Pte Ltd (Nov 2008 – Nov 2012)
+            <b>Senior Network Engineer</b>,OKA Management Technology Pte Ltd
+            (Nov 2008 – Nov 2012)
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.details}>
           <Typography>
             <ul>
-              <li>
-                Position: <b>Senior Network and System Engineer</b>
-              </li>
-              <li>Responsibilities:</li>
+              <p>
+                Position: <b>Senior Network Engineer</b>
+              </p>
+              <p>
+                As a Senior Network Engineer at OKA Management Technology Co.,
+                Ltd, I played a pivotal role in shaping and maintaining the
+                organization's network infrastructure. My responsibilities
+                encompassed a wide array of tasks, focusing on network design,
+                implementation, and continuous optimization to ensure seamless
+                and secure data communication.
+              </p>
               <ul>
                 <li>
-                  Planning and implementation Switch,Router,AP and Firewall
+                  Network Planning and Implementation: Led the planning and
+                  implementation of switches, routers, access points, and
+                  firewalls. Designed network architectures that catered to the
+                  organization's evolving requirements, emphasizing scalability
+                  and robustness.
                 </li>
                 <li>
-                  {" "}
-                  Implementing and Maintaining network , repairing of Computer
-                  Hardware, Internet & Email Services
+                  Network Maintenance and Repair: Implemented proactive
+                  maintenance routines, diagnosing and swiftly resolving network
+                  issues. Conducted regular repair and troubleshooting of
+                  computer hardware, ensuring continuous network uptime.
                 </li>
                 <li>
-                  {" "}
-                  Installation and administration AD,DHCP,DNS,Web application
-                  server and printer server
+                  Server Infrastructure: Installed, configured, and administered
+                  Active Directory, DHCP, DNS, and web application servers.
+                  Ensured server security, optimal performance, and streamlined
+                  user access within the Windows Server environment.
                 </li>
                 <li>
-                  Regularitymaintainingsecuritybyupdatingdevicefirmware,Operationsystem,software
-                  and application , security software.
+                  Security Configurations: Configured and maintained firewall
+                  policies, VPNs, and intrusion detection systems. Implemented
+                  stringent security measures to safeguard sensitive data,
+                  ensuring compliance with industry standards.
+                </li>
+                <li>
+                  Collaboration and Integration: Collaborated with vendors for
+                  the latest hardware and software solutions. Ensured seamless
+                  integration of various network components, facilitating
+                  efficient communication between different devices and
+                  services.
+                </li>
+                <li>
+                  Documentation and Reporting: Maintained detailed documentation
+                  of network configurations, troubleshooting procedures, and
+                  security protocols. Generated regular reports to track network
+                  performance, identifying areas for improvement.
+                </li>
+                <li>
+                  WAN Connectivity: Designed and configured WAN connections,
+                  including MPLS, leased lines, and broadband. Ensured high
+                  availability and fault tolerance, implementing redundancy
+                  protocols and load balancing techniques.
                 </li>
               </ul>
             </ul>
@@ -248,7 +351,8 @@ const ProExperience = ({ classes }) => {
           className={classes.panelSummary}
         >
           <Typography className={classes.heading}>
-            Columbus Travels & Tours Co.,Ltd (Mar 2007 – Sep 2008)
+            <b>Network and System Engineer</b>,Columbus Travels & Tours Co.,Ltd
+            (Mar 2007 – Sep 2008)
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.details}>
