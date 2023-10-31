@@ -293,7 +293,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          OpenShift Application
+            OpenShift Application
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -324,7 +324,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Application Centric Infrastructure
+            Application Centric Infrastructure
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -355,7 +355,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Absolute Beginner Cyber Secruity
+            Absolute Beginner Cyber Secruity
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -366,19 +366,22 @@ const CustomizedExpansionPanels = ({ classes }) => {
                 href="https://ipfs.io/ipfs/QmPrUhH5q7m94WtD3wCL3jojo9qT1Ka1cUUh4efbv6tndz"
               >
                 Absolute Beginner Cyber Secruity Part-1
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmUyErqPTLo9PGMnp8bTi46557hiCVH7xzULhJ5pFgpmgo"
               >
                 Absolute Beginner Cyber Secruity Part-2
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmVN6SpiyMqRuzR83VBq18PBexzyixfEnHuGZvwQqzmZwi"
               >
                 Absolute Beginner Cyber Secruity Part-3
-              </a><br/>
+              </a>
+              <br />
               <li>Udemy</li>
               <li>Issued : May , 2020 - No Expiration Date</li>
               <li>Credential : ID UC-9fb49cf8-5900-46a1-8684-09e11c4f3e4a</li>
@@ -399,7 +402,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Red Hat Certified System Administrator
+            Red Hat Certified System Administrator
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -421,6 +424,38 @@ const CustomizedExpansionPanels = ({ classes }) => {
 
       <MuiExpansionPanel
         square
+        expanded={expanded === "panel101"} // You can use a different panel identifier
+        onChange={handleChange("panel101")}
+        className={classes.certificationPanel} // Apply certification styles
+      >
+        <MuiExpansionPanelSummary
+          aria-controls="panel101d-content"
+          id="panel101d-header"
+          className={classes.certificationSummary} // Apply certification styles
+        >
+          <Typography className={classes.heading}>
+            AWS Fundamentals Specialization
+          </Typography>
+        </MuiExpansionPanelSummary>
+        <MuiExpansionPanelDetails className={classes.certificationDetails}>
+          <Typography>
+            <ul>
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/specialization/certificate/XUKS5C27B2TZ"
+              >
+                AWS Fundamentals Specialization
+              </a>
+              <li>Coursera</li>
+              <li>Issued : October , 2023 - No Expiration Date</li>
+              <li>Credential ID : XUKS5C27B2TZ</li>
+            </ul>
+          </Typography>
+        </MuiExpansionPanelDetails>
+      </MuiExpansionPanel>
+
+      <MuiExpansionPanel
+        square
         expanded={expanded === "panel12"} // You can use a different panel identifier
         onChange={handleChange("panel12")}
         className={classes.certificationPanel} // Apply certification styles
@@ -431,7 +466,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          CCNA Routing and Switching
+            CCNA Routing and Switching
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -463,7 +498,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          VMware Site Recovery Manager [V6.1] Fundamentals
+            VMware Site Recovery Manager [V6.1] Fundamentals
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -477,8 +512,6 @@ const CustomizedExpansionPanels = ({ classes }) => {
               </a>
               <li>VMware</li>
               <li>Issued : October, 8 2017</li>
-              
-             
             </ul>
           </Typography>
         </MuiExpansionPanelDetails>
@@ -495,9 +528,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           id="panel14d-header"
           className={classes.certificationSummary} // Apply certification styles
         >
-          <Typography className={classes.heading}>
-          MikroTik Lab
-          </Typography>
+          <Typography className={classes.heading}>MikroTik Lab</Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
           <Typography>
@@ -527,9 +558,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           id="panel15d-header"
           className={classes.certificationSummary} // Apply certification styles
         >
-          <Typography className={classes.heading}>
-          MikroTik Lab
-          </Typography>
+          <Typography className={classes.heading}>MikroTik Lab</Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
           <Typography>
@@ -560,8 +589,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Blockchain Specialization
-
+            Blockchain Specialization
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -572,7 +600,6 @@ const CustomizedExpansionPanels = ({ classes }) => {
                 href="https://ipfs.io/ipfs/QmSgyhifSwVoTtBppKu4sZ5TYQWKhAn7LiHRJL4jDxHfUa"
               >
                 Blockchain Specialization
-
               </a>
               <li>Coursera</li>
               <li>Issued : April, 2020 - No Expiration Date</li>
@@ -594,9 +621,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Advance Your Skills in the Blockchain
-
-
+            Advance Your Skills in the Blockchain
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -606,9 +631,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmVngNxnwQzU9M7bcrsEZhATmQFjhwQNKiN1gV7Nky6EhU"
               >
-               Advance Your Skills in the Blockchain
-
-
+                Advance Your Skills in the Blockchain
               </a>
               <li>LinkIn</li>
               <li>Issued :May, 2020 - No Expiration Date</li>
@@ -630,8 +653,7 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Ethereum: Building Blockchain Decentralized Apps (DApps)
-
+            Ethereum: Building Blockchain Decentralized Apps (DApps)
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
@@ -642,10 +664,9 @@ const CustomizedExpansionPanels = ({ classes }) => {
                 href="https://ipfs.io/ipfs/QmfExwuuDRfkyDRmGZ84fcuSbvsBMRKQXdEabaC3NymTyt"
               >
                 Ethereum: Building Blockchain Decentralized Apps (DApps)
-
               </a>
               <li>LinkedIn</li>
-              <li>Issued :  May 4, 2020 - No Expiration Date</li>
+              <li>Issued : May 4, 2020 - No Expiration Date</li>
               <li>Credential ID : ASYtmipzUC5bgk-WpmvwFWjwgxge</li>
             </ul>
           </Typography>
@@ -664,120 +685,117 @@ const CustomizedExpansionPanels = ({ classes }) => {
           className={classes.certificationSummary} // Apply certification styles
         >
           <Typography className={classes.heading}>
-          Certificates Of Completion
-
+            Certificates Of Completion
           </Typography>
         </MuiExpansionPanelSummary>
         <MuiExpansionPanelDetails className={classes.certificationDetails}>
           <Typography>
             <ul>
-            
               <a
                 target="_blank"
                 href="https://coursera.org/verify/JTTAK2F29MWW"
               >
                 Foundations of Project Management
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://coursera.org/verify/VE5XPPM6JFUG"
               >
                 Project Initiation:Starting a Successful Project
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://coursera.org/verify/L6L6DB3WPZG8"
               >
                 Project Planning: Putting It All Together
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://www.coursera.org/verify/S88YJVSATSU9"
               >
                 Introduction to Blockchain Technologies
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/Qmdw117mvwYB2PUXRcjXWw73r1xBGJNsd1pZHMaTqxLnh2"
               >
                 Blockchain Service
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmSXBeDXteGDhnRgzEGDcomqoAQAQCEChHRGyCmYLBceKV"
               >
                 Blockchain Beyond
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmSG7uXwesh47TYYmLLri9HD6ZWvYWkSGLenJLL9C64nXe"
               >
                 Cryptocurrency Foundations
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmW2x2qN9PNUgXEJUJUDRzeVYK8aqk11SthBMLMunbkBqY"
               >
                 Kubernetes: Microservices
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmTjqzgSefXcUDaH7yJCMrDjnqhmXcwv95XRGkE4NPT72Y"
               >
                 Kubernetes: Monitoring with Prometheus
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmbY5bUpJpqPtQres2MeLRfgjdivqaMjQsAETyxCBuvTos"
               >
                 Kubernetes: Native Tools
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmZE68iU9tz59wa7ANv7TJ6bv57hjcyUX64nbtzacdCHX7"
               >
                 Learning Docker
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmZt9Zx9BdrvvuUU8X9m1FAxLfAx4ZpEToEf7GHfYtNm25"
               >
-               Learning Kubernetes
-
-              </a><br/>
+                Learning Kubernetes
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmSgyhifSwVoTtBppKu4sZ5TYQWKhAn7LiHRJL4jDxHfUa"
               >
                 Blockchain Specilization
-
-              </a><br/>
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmZ7MDwZtFzuAUueZ6EQZFvArhXiM3jDQmE3g8mq65ejWm"
               >
-               Blockchain Basics
-
-              </a><br/>
+                Blockchain Basics
+              </a>
+              <br />
               <a
                 target="_blank"
                 href="https://ipfs.io/ipfs/QmSMt24WY7MfSe6EgcmyzNKujTkYSQyhDYEZaAsDJbgRRG"
               >
-              Blockchain Platforms
-
-              </a><br/>
-              
+                Blockchain Platforms
+              </a>
+              <br />
             </ul>
           </Typography>
         </MuiExpansionPanelDetails>
