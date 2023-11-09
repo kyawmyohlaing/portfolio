@@ -693,28 +693,35 @@ const CustomizedExpansionPanels = ({ classes }) => {
             <ul>
               <a
                 target="_blank"
-                href="https://coursera.org/verify/JTTAK2F29MWW"
+                href="https://www.coursera.org/account/accomplishments/certificate/JTTAK2F29MWW"
               >
                 Foundations of Project Management
               </a>
               <br />
               <a
                 target="_blank"
-                href="https://coursera.org/verify/VE5XPPM6JFUG"
+                href="https://www.coursera.org/account/accomplishments/certificate/VE5XPPM6JFUG"
               >
                 Project Initiation:Starting a Successful Project
               </a>
               <br />
               <a
                 target="_blank"
-                href="https://coursera.org/verify/L6L6DB3WPZG8"
+                href="https://www.coursera.org/account/accomplishments/certificate/L6L6DB3WPZG8"
               >
                 Project Planning: Putting It All Together
               </a>
               <br />
               <a
                 target="_blank"
-                href="https://www.coursera.org/verify/S88YJVSATSU9"
+                href="https://www.coursera.org/account/accomplishments/certificate/4WMYTTJDEQ2X"
+              >
+                Agile Project Management
+              </a>
+              <br />
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/certificate/S88YJVSATSU9"
               >
                 Introduction to Blockchain Technologies
               </a>
@@ -794,6 +801,13 @@ const CustomizedExpansionPanels = ({ classes }) => {
                 href="https://ipfs.io/ipfs/QmSMt24WY7MfSe6EgcmyzNKujTkYSQyhDYEZaAsDJbgRRG"
               >
                 Blockchain Platforms
+              </a>
+              <br />
+              <a
+                target="_blank"
+                href="https://www.coursera.org/account/accomplishments/certificate/RL96KQ6HPGNR"
+              >
+                Web3 and Blockchain Fundamentals
               </a>
               <br />
             </ul>
